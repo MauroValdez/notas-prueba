@@ -1,6 +1,6 @@
-###### TEMARIO 1: Algoritmo e instrucciones
+## TEMARIO 1: Algoritmo e instrucciones
 
-### Definición
+#### Definición
 
 En términos simples un Algoritmo es un conjunto de pasos que deben ser ejecutados en orden para realizar una tarea y/o resolver un problema.
 
@@ -16,11 +16,11 @@ ejemplo en lo cotidiano:
   fin  si
   colgar el teléfono
 
-### Algoritmo en lo cotidiano 
+#### Algoritmo en lo cotidiano 
 
 Todos en la vida real hemos realizado algoritmos en múltiples ocasiones,ya sea para resolver un problema matemático o preparar una comida.
 
-### Intrucción y programacón
+#### Intrucción y programacón
 
 La programación consiste en adaptar un algoritmo mediante un lenguaje de programación a un dispositivo capaz de entenderlo y cada uno de sus pasos son referidos o llamados "instrucción"
 
@@ -34,13 +34,13 @@ si existe y son iguales
   iniciar sesión
 si no 
 
-###### TEMARIO 2: Algoritmo usando bloques
+## TEMARIO 2: Algoritmo usando bloques
 
-### Definición
+#### Definición
 
 La programación con bloques es una estrategia para desarrollar la lógica algorítmica usando un computador, la cual consiste en conectar bloques como un rompecabezas
 
-### Ejercicio inicial:
+#### Ejercicio inicial:
 
 repetir hasta llegar a la meta
 hacer AVANZAR
@@ -49,9 +49,9 @@ hacer AVANZAR
   si hay camino a la derecha 
   hacer girar a la derecha
 
-###### TEMARIO 3 Flujograma
+## TEMARIO 3 Flujograma
 
-### Definición
+#### Definición
 
 Un flujograma o diagrama de flujo de datos DFD es una representación gráfica de un algoritmo, la cual debe presentar la información de manera clara, concisa y ordenada
 
@@ -67,9 +67,9 @@ Algoritmo LLAMAR
   colgar
 Fin Algoritmo
 
-###### TEMARIO 4 Lenguaje y Pseudolenguaje
+## TEMARIO 4 Lenguaje y Pseudolenguaje
 
-### Definición 
+#### Definición 
 
 Lenguaje de programación:
   Es un lenguaje artificial usado para controlar el comportamiento de un dispositivo programable, generalmente una computadora
@@ -94,7 +94,7 @@ Clasificación
     Estructurados: Pascal, C 
     Orientado a Objetos: C++, Java, PHP
 
-### Código fuente y ejecutable
+#### Código fuente y ejecutable
 
 Código fuente
   es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar un programa, los cuales están escritos en un lenguaje de programaciónsegúnlas reglas del mismo
@@ -102,15 +102,15 @@ Código fuente
 Código ejecutable
   es un archivo que tiene todos las instrucciones en código máquina que le indica a l CPU las operaciones a realizar electronicamente
 
-### IDE (Entorno de desarrollo)
+#### IDE (Entorno de desarrollo)
 
 Por sus siglas, Entorno de Desarrollo Integrado. Es un software especializado y utilizado por los programadores para escribir el código fuente en algun lenguaje de programación determinado
 
 Éste tipo de programas ofrecen una gama de herramientas que le permiten al programador ser más eficiente en el desarrollo de software al momento de programar
 
-###### TEMARIO 6 Pseudocódigo y PseInt
+## TEMARIO 6 Pseudocódigo y PseInt
 
-### Definición
+#### Definición
 
 Pseudocódigo
   Es un término usado en la informática para referirse a un lenguaje artificial e informal, es usado por los programadores para el diseño y creación de algoritmos mediante un Pseudilenguaje
@@ -118,21 +118,21 @@ Pseudocódigo
   No es un lenguaje de programción real
 
  
-### PseudoInterprete
+#### PseudoInterprete
 
 Es un programa creado para leer y ejecutar instrucciones de un pseudocódigo
 
-###### Lenguajes 
+## Lenguajes 
 
-### Palabras recervadas
+#### Palabras recervadas
 
 Todo lenguaje de programación tiene palabras unicas que no podras usar ya que tienen su funcion establecida
 
-### Comentarios
+#### Comentarios
 
 En todos los lenguajes se puede agragar comentarios para documentar lo que estamos realizando, son ignorados por el interprete o compilador
 
-### Datos y Variables
+#### Datos y Variables
 
 Datos 
   es simplemente un elemento dentro de la ejecución de un programa 
@@ -142,7 +142,7 @@ Variable
   es como un contenedor donde podemos almacenar datos
   la podemos diseñar para que almacene datos especificos
 
-### Tipos de Datos
+#### Tipos de Datos
 
 Todas variables tiene asociados un tipo de datos que pueden almacenar, los tipos de datos se clasifican de dos formas
 
@@ -166,7 +166,7 @@ Los tipos de datos primitivos se basan en
     Es un tipo de datos que toma solo dos valores
       Verdadero o Falso
 
-### Instruccion de entrada
+#### Instruccion de entrada
 
 Una instrucción de entrada (o simplemente entrada) consiste en asignar a una o más variables, uno o más valores (datos) recibidos desde el exterior.
 
@@ -176,7 +176,7 @@ En pseudocódigo, una instrucción de entrada se puede escribir utilizando la si
 
 Leer <variable_1>, ..., <variable_n>
 
-### Instrucción de salida
+#### Instrucción de salida
 
 Una instrucción de salida (o simplemente salida) consiste en llevar hacia el exterior los valores (datos) obtenidos de la evaluación de una lista de expresiones.
 
@@ -186,7 +186,7 @@ En pseudocódigo, una instrucción de salida se puede escribir utilizando la sig
 
 Escribir <expresión_1>, ..., <expresión_n>
 
-### Instrucción de asignación
+#### Instrucción de asignación
 
 Una instrucción de asignación (o simplemente asignación) consiste en asignar el resultado de la evaluación de una expresión a una variable.
 
@@ -196,15 +196,15 @@ Definir nombre Como Cadena
 
 Definir nota_1, nota_2, nota_3, nota_media Como Real
 
-### Instrucción condicional
+#### Instrucción condicional
 
 Una instrucción condicional nos permite plantear la solución a un problema considerando los distintos casos que se pueden presentar. De esta manera, podemos utilizar un algoritmo distinto para enfrentar cada caso que pueda existir en el mundo
 
-### Instrucción en cascada
+#### Instrucción en cascada
 
 Cuando el problema tiene más de dos casos, es necesario utilizar una cascada (secuencia) de instrucciones if-else, en donde cada condición debe indicar sin ambigüedad la situación que se quiere considerar. 
 
-### Ciclo para (For)
+#### Ciclo para (For)
 
 La instrucción Para ejecuta una secuencia de instrucciones un número determinado de veces.
 
@@ -220,7 +220,7 @@ Si esto es falso se repite hasta que <variable> supere a <final>.
 
 Si se omite la cláusula Con Paso <paso>, la variable <variable> se incrementará en 1.
 
-### Ciclo repetir - hasta que (do while)
+#### Ciclo repetir - hasta que (do while)
 
 La instrucción Repetir-Hasta Que ejecuta una secuencia de instrucciones hasta que la condición sea verdadera.
 
@@ -234,7 +234,7 @@ Note que, dado que la condición se evalúa al final, las instrucciones del cuer
 
 Además, a fin de evitar ciclos infinitos, el cuerpo del ciclo debe contener alguna instrucción que modifique la o las variables involucradas en la condición de modo que en algún momento la condición sea verdadera y se finalice la ejecución del ciclo.
 
-### Ciclo mientras (while)
+#### Ciclo mientras (while)
 
 La instrucción Mientras ejecuta una secuencia de instrucciones mientras una condición sea verdadera.
 

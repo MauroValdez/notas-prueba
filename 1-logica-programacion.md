@@ -1,4 +1,4 @@
-## TEMARIO 1: Algoritmo e instrucciones
+## TEMARIO 1  Algoritmo e instrucciones
 
 #### Definición
 
@@ -6,7 +6,7 @@ En términos simples un Algoritmo es un conjunto de pasos que deben ser ejecutad
 
 De un modo más formal, un algoritmo es una secuencia finita de operaciones realizables, cuyo seguimiento paso a paso debe conducir a la solución de un problema en un tiempo finito.
 
-ejemplo en lo cotidiano:
+ejemplo en lo cotidiano 
   esperar tono
   marcar el número de teléfono destino
   si  contestan
@@ -34,13 +34,13 @@ si existe y son iguales
   iniciar sesión
 si no 
 
-## TEMARIO 2: Algoritmo usando bloques
+## TEMARIO 2  Algoritmo usando bloques
 
 #### Definición
 
 La programación con bloques es una estrategia para desarrollar la lógica algorítmica usando un computador, la cual consiste en conectar bloques como un rompecabezas
 
-#### Ejercicio inicial:
+#### Ejercicio inicial 
 
 repetir hasta llegar a la meta
 hacer AVANZAR
@@ -71,7 +71,7 @@ Fin Algoritmo
 
 #### Definición 
 
-Lenguaje de programación:
+Lenguaje de programación 
   Es un lenguaje artificial usado para controlar el comportamiento de un dispositivo programable, generalmente una computadora
 
   Se componen de un conjunto de reglas sintácticas que permiten realizar instrucciones que posteriormente serán procesadas
@@ -84,15 +84,15 @@ Pseudolenguaje
 Clasificación
 
   Nivel de abstracción
-    Lenguaje Maquina: codigo binario (11001110101)
-    Bajo Nivel: lenguaje ensamblador
-    Nivel Medio: C, C++, Pascal, Cobol
-    Alto Nivel: Java, Delphi, PHP
+    Lenguaje Maquina  codigo binario (11001110101)
+    Bajo Nivel  lenguaje ensamblador
+    Nivel Medio  C, C++, Pascal, Cobol
+    Alto Nivel  Java, Delphi, PHP
   
   Paradigma de programación 
-    No Estructurados: lenguajes ensambladores
-    Estructurados: Pascal, C 
-    Orientado a Objetos: C++, Java, PHP
+    No Estructurados  lenguajes ensambladores
+    Estructurados  Pascal, C 
+    Orientado a Objetos  C++, Java, PHP
 
 #### Código fuente y ejecutable
 
@@ -172,7 +172,7 @@ Una instrucción de entrada (o simplemente entrada) consiste en asignar a una o 
 
 Normalmente, los datos son recogidos desde la entrada estándar (el teclado), pero, también existen otros dispositivos de entrada (el ratón, el escáner...).
 
-En pseudocódigo, una instrucción de entrada se puede escribir utilizando la siguiente sintaxis:
+En pseudocódigo, una instrucción de entrada se puede escribir utilizando la siguiente sintaxis 
 
 Leer <variable_1>, ..., <variable_n>
 
@@ -182,7 +182,7 @@ Una instrucción de salida (o simplemente salida) consiste en llevar hacia el ex
 
 Normalmente, los datos son enviados a la salida estándar (la pantalla), pero, también existen otros dispositivos de salida (la impresora, el plotter...).
 
-En pseudocódigo, una instrucción de salida se puede escribir utilizando la siguiente sintaxis:
+En pseudocódigo, una instrucción de salida se puede escribir utilizando la siguiente sintaxis 
 
 Escribir <expresión_1>, ..., <expresión_n>
 
@@ -190,7 +190,7 @@ Escribir <expresión_1>, ..., <expresión_n>
 
 Una instrucción de asignación (o simplemente asignación) consiste en asignar el resultado de la evaluación de una expresión a una variable.
 
-EJEMPLO A partir de la definición de las siguientes declaraciones de variables en pseudocódigo:
+EJEMPLO A partir de la definición de las siguientes declaraciones de variables en pseudocódigo 
 
 Definir nombre Como Cadena
 
@@ -248,12 +248,92 @@ Se puede dar la circunstancia que las instrucciones del bucle no se ejecuten nun
 
 Si la condición siempre es verdadera, al ejecutar esta instrucción se produce un ciclo infinito. A fin de evitarlo, las instrucciones del cuerpo del ciclo deben contener alguna instrucción que modifique la o las variables involucradas en la condición, de modo que ésta sea falsificada en algún momento y así finalice la ejecución del ciclo.
 
+#### Operadores y expresiones
+
+Una expresión es una combinación de variables, literales, operadores, funciones y expresiones, que tras su evaluación o cálculo nos devuelven un valor de un determinado tipo
+
+Operadores aritméticos
+  El valor devuelto por una operación aritmética es un número 
+  +  Suma dos números
+  -  Resta dos números
+  *  Multiplica dos números
+  /  Divide dos números.
+  % ó mod  Módulo o resto de la división
+  ^  Potencia
+  +, -  Operadores unarios positivo y negativo
+
+Precedencia de los operadores aritmeticos
+  Los paréntesis rompen la procedencia.
+  La potencia
+  Operadores unarios
+  Multiplicar, dividir y módulo
+  Suma y resta
+  Operador lógico AND
+  Operadores lógico OR
+  Operadores de comparación
+  Operadores lógicos (not, or, and)
 
 
+Operadores de comparación
+  El valor devuelto por una operación de comparación es un valor lógico 
+
+  >  Mayor que
+  <  Menor que
+  =  Igual que
+  <= Menor o igual
+  >= Mayor o igual
+  != Distinto
+  == Comparador
+  === Comparador estricto
+
+  La comparación entre cadenas de caracteres se hace según el código ASCII.
+
+Operadores lógicos
+  El valor devuelto por una operación lógica es un valor lógico 
+
+  & ó Y  Conjunción, operación AND.
+  | ó O  Disyunción, operación OR.
+  ~ ó NO  Negación, operación NOT.
+
+#### TEMARIO 7 Creación de algoritmos
+
+Proceso para crear algoritmos
+  Entender el problema
+  Trazar un plan
+  Ejecutar el plan
+  Revisar
+
+Todos los programas se resuelven dividiendolos en tres etapas
+  Entrada 
+    son los datos que vamos a utilizar
+  Procesos
+    son todos los cálculos (no necesariamente matemáticos) que vamos a realizar
+  Salida
+    el resultado de todo lo realizado
+
+Ejercicio:
+  Una agencia de automóviles paga a su personal de ventas un sueldo base de 800$ más una comisión de 350$ por cada auto vendido, adicional a ésto se le paga el 10% del valor neto de sus ventas a cada vendedor. Se se cuenta con el nombre del vendedor, la cantidad de autos vendidos y el monto total de sus ventas. Se pide que el programa muestre el sueldo final a pagar para el vendedor
+
+Análisis
+  Entradas: 
+    Nombre del vendedor
+    Cantidad de autos vendidos
+    Monto de ventas
+  Salidas:
+    Nombre del vendedor
+    sueldo final a pagar
+  Procesos:
+  800 + cantAutosVend * 350 + montVentas * 10 / 100
 
 
+sueldoBase = 800
+montVentas = cantAutosVend * 350
+adicional = montVentas * 0.1
+sueldoFinal = sueldoBase + montVentas + adicional
 
+#### TEMARIO 8: Funciones
 
-
-
+Funciones Propias
+  Cada lenguaje de programación posee funciones propias que nos facilitan hacer ciertos trabajos
+  
 
